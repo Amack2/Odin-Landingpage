@@ -2,17 +2,21 @@
 
 /* Style for elements in the heading container */
 
-.HeadingContainer { /* All Placeholder ATM */
+.HeadingContainer {
+    /* All Placeholder ATM */
     background-color: purple;
-    padding: 32px;
-    color: white; 
+    color: white;
 }
 
-.SecondContainerLeftTitle {
-    font-weight: bold;}
+.HeaderLeft {
+    font-weight: bold;
+}
+
 
 /* Style for elements in the second container */
-
+.SecondContainerLeftTitle {
+    font-weight: bold;
+}
 
 /* Style for elements in the third container */
 

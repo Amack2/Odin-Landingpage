@@ -1,13 +1,12 @@
+.body {
+    display: Flex;
+    flex-direction: column;
+}
+
 .HeadingContainer {
     display: flex;
     justify-content: space-between;
     margin-bottom: 32px;
-    /* */
-    background-color: purple;
-    /* */
-    padding: 32px;
-    /* */
-    color: white; /* */
 }
 
 
@@ -30,8 +29,30 @@ ul {
     flex-direction: column;
 }
 
-.SecondContainerLeftTitle{font-weight: bold;}
-
 .SecondContainerRight {
     display: flex;
+}
+
+.ThirdContainer {
+    display: flex;
+    border: rgb(203, 255, 192) dotted 8px;
+    justify-content: center;
+}
+
+.FourthContainer {
+    display: flex;
+    border: rgb(192, 198, 255) dotted 8px;
+    justify-content: center;
+}
+
+.FifthContainer {
+    display: flex;
+    border: rgb(192, 204, 255) dotted 8px;
+    justify-content: center;
+}
+
+.FooterContainer {
+    display: flex;
+    border: rgb(201, 192, 74) dotted 8px;
+    justify-content: center;
 }
