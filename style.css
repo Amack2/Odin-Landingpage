@@ -1,0 +1,37 @@
+.HeadingContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    /* */
+    background-color: purple;
+    /* */
+    padding: 32px;
+    /* */
+    color: white; /* */
+}
+
+
+
+ul {
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 16px
+}
+
+.SecondContainer {
+    display: flex;
+    border: pink dotted 8px;
+    justify-content: center;
+}
+
+.SecondContainerLeft {
+    display: flex;
+    flex-direction: column;
+}
+
+.SecondContainerLeftTitle{font-weight: bold;}
+
+.SecondContainerRight {
+    display: flex;
+}
