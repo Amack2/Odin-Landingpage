@@ -16,8 +16,7 @@ body {
     font-weight: bold;
     font-size: 24px;
     display: flex;
-    flex-shrink: 0;
-}
+    }
 
 .HeaderRight {
     font-size: 18px;
@@ -28,25 +27,7 @@ body {
 
 
 /* Style for elements in the second container */
-.SecondContainer {
-    background-color: #1f2937;
-    color: white;
-}
 
-.SecondContainerLeftTitle {
-    font-weight: bolder;
-    font-size: 48px;
-}
-
-.SecondContainerLeftBody {
-    font-size: 18px;
-    color: #e5e7eb;
-}
-
-.SecondContainerButton {
-    background-color: #3882f8;
-
-}
 
 /* Style for elements in the third container */
 

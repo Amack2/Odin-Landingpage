@@ -1,6 +1,7 @@
 body {
     display: Flex;
     flex-direction: column;
+    margin: 0px;
 }
 
 .HeadingContainer,
@@ -9,8 +10,7 @@ body {
 .FourthContainer,
 .FifthContainer,
 .FooterContainer {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: 10px 120px;
 }
 
 /* Style for elements in the heading container */
@@ -33,10 +33,11 @@ ul {
 /* Style for elements in the second container */
 .SecondContainer {
     display: flex;
-    border: pink dotted 8px;
     justify-content: center;
     padding-bottom: 40px;
     padding-top: 40px;
+    background-color: #1f2937;
+    color: white;
 }
 
 .SecondContainerLeft {
@@ -54,11 +55,31 @@ ul {
     align-items: center;
 }
 
+.SecondContainerLeftTitle {
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.SecondContainerLeftBody {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.SecondContainerButton {
+    background-color: #3882f8;
+    border-radius: 8px;
+    color: white;
+    padding: 4px 18px;
+    justify-content: center;
+    align-items: center;
+    border-color: transparent;
+
+}
+
 /* Style for elements in the third container */
 .ThirdContainer {
     display: flex;
     flex-direction: column;
-    border: rgb(203, 255, 192) dotted 8px;
     align-items: center;
     gap: 16px;
     padding-top: 32px;
@@ -86,7 +107,6 @@ ul {
 /* Style for elements in the Fourth container */
 .FourthContainer {
     display: flex;
-    border: rgb(192, 198, 255) dotted 8px;
     justify-content: center;
     background-color: #E5E7EB;
     align-content: center;
@@ -98,7 +118,8 @@ ul {
 .FourthContainerQuote {
     display: flex;
     font-size: 36px;
-    font-style: light italic;
+    font-style: italic;
+    font-weight: lighter;
     color: #1F2937;
     padding: 32px;
 }
@@ -114,13 +135,51 @@ ul {
 /* Style for elements in the Fifth container */
 .FifthContainer {
     display: flex;
-    border: rgb(192, 204, 255) dotted 8px;
     justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+    }
+
+.FifthContainerBox {
+    background-color: #3882f8;
+    padding: 18px 80px;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    border-radius: 8px;
+    
 }
+
+.FifthContainerLeftHeading {
+    font-weight: bold;
+}
+
+.FifthContainerLeftBody {
+    font-weight: lighter;
+}
+
+.FifthContainerButton {
+    color: white;
+    display: flex;
+    background-color: #3882f8;
+    border-color: white;
+    padding: 4px 16px;
+    border-radius: 8px;
+    
+}
+
+.FifthContainerButton:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
 
 /* Style for elements in the Footer container */
 .FooterContainer {
     display: flex;
-    border: rgb(201, 192, 74) dotted 8px;
     justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
