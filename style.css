@@ -1,12 +1,24 @@
-.body {
+body {
     display: Flex;
     flex-direction: column;
 }
 
+.HeadingContainer,
+.SecondContainer,
+.ThirdContainer,
+.FourthContainer,
+.FifthContainer,
+.FooterContainer {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* Style for elements in the heading container */
 .HeadingContainer {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 32px;
+    padding-top: 32px;
+    align-items: flex-end;
 }
 
 
@@ -18,39 +30,95 @@ ul {
     gap: 16px
 }
 
+/* Style for elements in the second container */
 .SecondContainer {
     display: flex;
     border: pink dotted 8px;
     justify-content: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
 }
 
 .SecondContainerLeft {
     display: flex;
     flex-direction: column;
+    flex: 1;
+    gap: 18px;
+
 }
 
 .SecondContainerRight {
     display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
 }
 
+/* Style for elements in the third container */
 .ThirdContainer {
     display: flex;
+    flex-direction: column;
     border: rgb(203, 255, 192) dotted 8px;
-    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding-top: 32px;
+    padding-bottom: 60px;
+    text-align: center;
+    color: #1F2937;
+    font-size: 18px;
+
+
 }
 
+.ThirdBottomContainer {
+    display: flex;
+    gap: 18px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.Cutie {
+    max-width: 150px;
+    max-height: 150px;
+    gap: 18px;
+}
+
+/* Style for elements in the Fourth container */
 .FourthContainer {
     display: flex;
     border: rgb(192, 198, 255) dotted 8px;
     justify-content: center;
+    background-color: #E5E7EB;
+    align-content: center;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
+.FourthContainerQuote {
+    display: flex;
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+    padding: 32px;
+}
+
+.FourthContainerAuthor {
+    display: flex;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    justify-content: flex-end;
+}
+
+/* Style for elements in the Fifth container */
 .FifthContainer {
     display: flex;
     border: rgb(192, 204, 255) dotted 8px;
     justify-content: center;
 }
 
+/* Style for elements in the Footer container */
 .FooterContainer {
     display: flex;
     border: rgb(201, 192, 74) dotted 8px;

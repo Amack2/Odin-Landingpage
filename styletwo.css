@@ -1,24 +1,61 @@
 /* Using this Sheet for Colors, background, fonts ect */
 
-/* Style for elements in the heading container */
+body {
+    font-family: "roboto"
+}
 
+
+/* Style for elements in the heading container */
 .HeadingContainer {
     /* All Placeholder ATM */
-    background-color: purple;
+    background-color: #1f2937;
     color: white;
 }
 
 .HeaderLeft {
     font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.HeaderRight {
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    flex-shrink: 1;
 }
 
 
 /* Style for elements in the second container */
+.SecondContainer {
+    background-color: #1f2937;
+    color: white;
+}
+
 .SecondContainerLeftTitle {
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.SecondContainerLeftBody {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.SecondContainerButton {
+    background-color: #3882f8;
+
 }
 
 /* Style for elements in the third container */
+
+.ThirdContainerHeading {
+    font-weight: bolder;
+    color: #1f2937;
+    font-size: 32px;
+    padding-bottom: 16px;
+}
 
 /* Style for elements in the fourth container */
 
