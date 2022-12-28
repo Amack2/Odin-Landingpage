@@ -2,6 +2,7 @@ body {
     display: Flex;
     flex-direction: column;
     margin: 0px;
+    font-family: "roboto"
 }
 
 .HeadingContainer,
@@ -19,15 +20,30 @@ body {
     justify-content: space-between;
     padding-top: 32px;
     align-items: flex-end;
+    background-color: #1f2937;
+    color: white;
 }
 
+.HeaderLeft {
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    min-width: 137px;
+}
 
+.HeaderRight {
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    flex-shrink: 1;
+}
 
 ul {
     margin: 0;
     list-style: none;
     display: flex;
-    gap: 16px
+    gap: 16px;
+    min-width: 487px;
 }
 
 /* Style for elements in the second container */
@@ -45,6 +61,7 @@ ul {
     flex-direction: column;
     flex: 1;
     gap: 18px;
+    min-width: 280px;
 
 }
 
@@ -87,8 +104,13 @@ ul {
     text-align: center;
     color: #1F2937;
     font-size: 18px;
+}
 
-
+.ThirdContainerHeading {
+    font-weight: bolder;
+    color: #1f2937;
+    font-size: 32px;
+    padding-bottom: 16px;
 }
 
 .ThirdBottomContainer {
@@ -96,12 +118,25 @@ ul {
     gap: 18px;
     padding-left: 60px;
     padding-right: 60px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 48px;
+    min-width: 475px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 150px;
+    gap: 4px;
+
 }
 
 .Cutie {
     max-width: 150px;
     max-height: 150px;
-    gap: 18px;
+
 }
 
 /* Style for elements in the Fourth container */
@@ -122,6 +157,10 @@ ul {
     font-weight: lighter;
     color: #1F2937;
     padding: 32px;
+    min-width: 475px;
+    max-width: 1120px;
+    justify-content: center;
+    align-items: center;
 }
 
 .FourthContainerAuthor {
@@ -130,6 +169,8 @@ ul {
     font-weight: bold;
     color: #1F2937;
     justify-content: flex-end;
+    min-width: 420px;
+    
 }
 
 /* Style for elements in the Fifth container */
@@ -139,7 +180,7 @@ ul {
     padding-top: 40px;
     padding-bottom: 40px;
     color: white;
-    }
+}
 
 .FifthContainerBox {
     background-color: #3882f8;
@@ -148,7 +189,7 @@ ul {
     gap: 60px;
     align-items: center;
     border-radius: 8px;
-    
+
 }
 
 .FifthContainerLeftHeading {
@@ -166,7 +207,7 @@ ul {
     border-color: white;
     padding: 4px 16px;
     border-radius: 8px;
-    
+
 }
 
 .FifthContainerButton:hover {
